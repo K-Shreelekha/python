@@ -1,0 +1,18 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+percent=((a+b+c+d+e)/500)*100
+print(percent)
+if(percent>=75):
+    print("grade A")
+elif( percent>=60 and percent<75):
+    print("grade B")
+elif(percent>=35 and percent<60):
+      print("grade C")
+else:
+     print("fail")
+
+    
+
