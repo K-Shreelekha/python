@@ -1,0 +1,12 @@
+
+
+import turtle 
+s=turtle.Turtle()
+turtle.bgcolor("white")
+s.color("violet")
+s.shape("turtle")
+s.speed(0)
+for i in range(200):
+    s.circle(i)
+    s.right(5)
+turtle.mainloop()
